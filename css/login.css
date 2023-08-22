@@ -1,0 +1,15 @@
+html, body {
+    min-height: 100%;
+}
+
+#login-form {
+    width: 50%;
+    margin: 20vh auto;
+}
+#login-fieldset {
+    display: flex;
+    flex-flow: column nowrap;
+}
+label+input {
+    margin-bottom: 10px;
+}
